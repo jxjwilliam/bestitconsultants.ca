@@ -1,0 +1,19 @@
+# OS generated files
+.DS_Store
+
+# IDE or Text Editor files
+.idea/
+.vscode/
+*.swp
+*.sublime-workspace
+*.sublime-project
+
+# Temporary files
+*.tmp
+*.temp
+
+# Miscellaneous
+*.bak
+*.old
+*.orig
+*.DS_Store
