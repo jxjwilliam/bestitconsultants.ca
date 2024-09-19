@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ title }}</title>
+    <!-- Placeholder for dynamic title -->
+    <link rel="stylesheet" href="../static/style.css">
+    <!-- Updated to style.css -->
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+
+<body class="font-sans bg-gray-100">
+    <header class="bg-blue-600 text-white py-4 text-center">
+        <h1 class="text-3xl">Best IT Consultants</h1>
+        <nav>
+            <ul class="list-none p-0">
+                <li class="inline mx-4"><a class="text-white no-underline hover:underline" href="../index.html">Home</a></li>
+                <li class="inline mx-4"><a class="text-white no-underline hover:underline" href="portfolio.html">Portfolio</a></li>
+                <li class="inline mx-4"><a class="text-white no-underline hover:underline" href="services.html">Services</a></li>
+                <li class="inline mx-4"><a class="text-white no-underline hover:underline" href="about.html">About Us</a></li>
+                <li class="inline mx-4"><a class="text-white no-underline hover:underline" href="contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="p-5">
+        {{ content }}
+        <!-- Placeholder for dynamic content -->
+    </main>
+    <footer class="text-center py-4 bg-gray-200">
+        <p>Contact us at <a class="text-blue-600" href="mailto:contact@bestitconsultants.ca">contact@bestitconsultants.ca</a></p>
+    </footer>
+</body>
+
+</html>

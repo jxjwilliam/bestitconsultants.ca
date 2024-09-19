@@ -5,29 +5,31 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Node.js Development - Best IT Consultants</title>
-    <link rel="stylesheet" href="static/styles.css">
+    <link rel="stylesheet" href="../static/styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
 </head>
 
-<body>
-    <header>
-        <h1>Best IT Consultants</h1>
-        <nav>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="services.html">Services</a></li>
-                <li><a href="about.html">About Us</a></li>
-                <li><a href="contact.html">Contact Us</a></li>
-            </ul>
-        </nav>
-    </header>
-    <main>
-        <h2>Node.js Development</h2>
-        <p>Our Node.js development services offer fast and scalable network applications. We use Node.js to build
-            high-performance solutions that can handle numerous connections simultaneously.</p>
-    </main>
-    <footer>
-        <p>Contact us at <a href="mailto:contact@bestitconsultants.ca">contact@bestitconsultants.ca</a></p>
-    </footer>
+<body class="font-sans bg-gray-100">
+    <!-- Include Navigation -->
+    <div id="nav">
+        <!--#include virtual="nav.html" -->
+    </div>
+
+    <div class="container mx-auto p-5">
+        <h2 class="text-2xl font-bold mb-4">Node.js Development</h2>
+        <p class="mb-4">Our Node.js development services offer fast and scalable network applications. We use Node.js to build high-performance solutions that can handle numerous connections simultaneously, ensuring your applications are responsive and efficient.</p>
+        <p>We focus on creating real-time applications that provide seamless user experiences.</p>
+    </div>
+
+    <!-- Include Footer -->
+    <div id="footer">
+        <!--#include virtual="footer.html" -->
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
 
 </html>

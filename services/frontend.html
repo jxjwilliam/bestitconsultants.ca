@@ -5,29 +5,31 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Frontend Development - Best IT Consultants</title>
-    <link rel="stylesheet" href="static/styles.css">
+    <link rel="stylesheet" href="../static/styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
 </head>
 
-<body>
-    <header>
-        <h1>Best IT Consultants</h1>
-        <nav>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="services.html">Services</a></li>
-                <li><a href="about.html">About Us</a></li>
-                <li><a href="contact.html">Contact Us</a></li>
-            </ul>
-        </nav>
-    </header>
-    <main>
-        <h2>Frontend Development</h2>
-        <p>Our frontend development services focus on creating engaging and user-friendly interfaces. We use the latest
-            technologies to build responsive and aesthetically pleasing websites.</p>
-    </main>
-    <footer>
-        <p>Contact us at <a href="mailto:contact@bestitconsultants.ca">contact@bestitconsultants.ca</a></p>
-    </footer>
+<body class="font-sans bg-gray-100">
+    <!-- Include Navigation -->
+    <div id="nav">
+        <!--#include virtual="nav.html" -->
+    </div>
+
+    <div class="container mx-auto p-5">
+        <h2 class="text-2xl font-bold mb-4">Frontend Development</h2>
+        <p class="mb-4">Our frontend development services focus on creating engaging and user-friendly interfaces. We use the latest technologies, including React and Angular, to build responsive and aesthetically pleasing websites that enhance user experience.</p>
+        <p>Our goal is to ensure that your web applications are not only functional but also visually appealing.</p>
+    </div>
+
+    <!-- Include Footer -->
+    <div id="footer">
+        <!--#include virtual="footer.html" -->
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
 
 </html>

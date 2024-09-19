@@ -1,4 +1,3 @@
-
 body {
     font-family: 'Arial', sans-serif;
     line-height: 1.6;
@@ -46,7 +45,8 @@ header nav {
     margin-top: 10px;
 }
 
-header .highlight, header .current a {
+header .highlight,
+header .current a {
     color: #e8491d;
     font-weight: bold;
 }
@@ -71,3 +71,46 @@ header a:hover {
 .showcase p {
     font-size: 20px;
 }
+
+
+/* Custom styles can be added here if needed */
+
+
+/* Custom styles can be added here if needed */
+
+
+/* Example custom styles using Tailwind CSS utilities */
+
+
+/* Headings */
+
+h1,
+h2,
+h3 {
+    @apply font-sans;
+    /* Use Tailwind's font-sans utility */
+}
+
+
+/* Links */
+
+a {
+    @apply transition-colors duration-300 ease-in-out;
+    /* Smooth transition for link color */
+}
+
+a:hover {
+    @apply text-blue-600;
+    /* Change link color on hover */
+}
+
+
+/* Footer */
+
+footer {
+    @apply border-t border-gray-300;
+    /* Add a top border to footer */
+}
+
+
+/* Additional custom styles can be added below */

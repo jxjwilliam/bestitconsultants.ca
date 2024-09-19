@@ -4,36 +4,42 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Services - Best IT Consultants</title>
-    <link rel="stylesheet" href="static/styles.css">
+    <title>Services Overview - Best IT Consultants</title>
+    <link rel="stylesheet" href="../static/styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
 </head>
 
-<body>
-    <header>
-        <h1>Best IT Consultants</h1>
-        <nav>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="services.html">Services</a></li>
-                <li><a href="about.html">About Us</a></li>
-                <li><a href="contact.html">Contact Us</a></li>
-            </ul>
-        </nav>
-    </header>
-    <main>
-        <h2>Our Services</h2>
-        <ul>
-            <li><a href="backend.html">Backend Development</a></li>
-            <li><a href="frontend.html">Frontend Development</a></li>
-            <li><a href="web-development.html">Web Development</a></li>
-            <li><a href="python.html">Python Development Services</a></li>
-            <li><a href="nodejs.html">Node.js Development</a></li>
-            <li><a href="react.html">React Development</a></li>
+<body class="font-sans bg-gray-100">
+    <!-- Include Header -->
+    <div id="header">
+        <!--#include virtual="header.html" -->
+    </div>
+
+    <div class="container mx-auto p-5">
+        <h2 class="text-2xl">Service Overview</h2>
+        <p>Explore our range of services designed to meet your business needs:</p>
+        <ul class="list-disc pl-5">
+            <li><a class="text-blue-600 hover:underline" href="ai.html">AI Services</a></li>
+            <li><a class="text-blue-600 hover:underline" href="backend.html">Backend Development</a></li>
+            <li><a class="text-blue-600 hover:underline" href="dev-ops.html">DevOps Services</a></li>
+            <li><a class="text-blue-600 hover:underline" href="frontend.html">Frontend Development</a></li>
+            <li><a class="text-blue-600 hover:underline" href="nodejs.html">Node.js Development</a></li>
+            <li><a class="text-blue-600 hover:underline" href="python.html">Python Development Services</a></li>
+            <li><a class="text-blue-600 hover:underline" href="react.html">React Development</a></li>
+            <li><a class="text-blue-600 hover:underline" href="web.html">Web Development</a></li>
+            <!-- Updated link -->
         </ul>
-    </main>
-    <footer>
-        <p>Contact us at <a href="mailto:contact@bestitconsultants.ca">contact@bestitconsultants.ca</a></p>
-    </footer>
+    </div>
+
+    <!-- Include Footer -->
+    <div id="footer">
+        <!--#include virtual="footer.html" -->
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
 
 </html>
